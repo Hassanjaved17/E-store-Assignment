@@ -67,20 +67,8 @@
                 font-size: 13px;
             }
         }
-    
-        @keyframes pulse {
-            0% {
-                box-shadow: 0 0 0 0 rgba(212, 172, 13, 0.6);
-            }
 
-            70% {
-                box-shadow: 0 0 0 20px rgba(212, 172, 13, 0);
-            }
 
-            100% {
-                box-shadow: 0 0 0 0 rgba(212, 172, 13, 0);
-            }
-        }
 
         @media (max-width:768px) {
             #intro-video h2 {
@@ -95,10 +83,7 @@
                 width: 100%;
                 height: auto;
             }
-        }
-    
-
-
+        }  
     </style>
 </head>
 
@@ -150,35 +135,32 @@
     <!-- intro video section start -->
 
     <section id="intro-video"
-    style="text-align:center; padding:60px 20px; background:linear-gradient(135deg, #f8f9fa 0%, #e6ecec 100%);">
-    <h2
-        style="color:#23393D; font-size:28px; font-weight:900; margin-bottom:20px; text-transform:uppercase; letter-spacing:1px;">
-        Watch Our EcoDrive Intro Video
-    </h2>
-    <p style="color:#555; max-width:600px; margin:0 auto 30px; font-size:16px;">
-        Discover how EcoDrive is transforming the future of electric vehicles — experience innovation, performance,
-        and sustainability in motion.
-    </p>
+        style="text-align:center; padding:60px 20px; background:linear-gradient(135deg, #f8f9fa 0%, #e6ecec 100%);">
+        <h2
+            style="color:#23393D; font-size:28px; font-weight:900; margin-bottom:20px; text-transform:uppercase; letter-spacing:1px;">
+            Watch Our EcoDrive Intro Video
+        </h2>
+        <p style="color:#555; max-width:600px; margin:0 auto 30px; font-size:16px;">
+            Discover how EcoDrive is transforming the future of electric vehicles — experience innovation, performance,
+            and sustainability in motion.
+        </p>
 
-    <div
-        style="position:relative; display:inline-block; border-radius:15px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.2); transition:transform 0.3s;">
-        <video width="720" height="400" controls poster="./images/video-preview.jpg"
-            style="border:4px solid #d4ac0d; border-radius:15px; max-width:100%; height:auto; cursor:pointer;">
-            <source src="./videos/intro.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-
-        <!-- Decorative overlay glow -->
         <div
+            style="position:relative; display:inline-block; border-radius:15px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.2); transition:transform 0.3s;">
+            <video width="720" height="400" controls poster="./images/video-preview.jpg"
+                style="border:4px solid #d4ac0d; border-radius:15px; max-width:100%; height:auto; cursor:pointer;">
+                <source src="./videos/intro.mp4" type="video/mp4">
+            </video>
+
+            <!-- Decorative overlay glow -->
+            <div
             style="position:absolute; top:0; left:0; width:100%; height:100%; box-shadow:inset 0 0 80px rgba(212,172,13,0.4); pointer-events:none;">
         </div>
 
-        <!-- Play button animation -->
-        <div
-            style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); background-color:rgba(212,172,13,0.9); width:80px; height:80px; border-radius:50%; display:flex; justify-content:center; align-items:center; animation:pulse 2s infinite;">
-            <span style="font-size:40px; color:white;">▶</span>
+            
+            
         </div>
-    </div>
+        </div>
     </section>
 
     <!-- intro video section end -->
