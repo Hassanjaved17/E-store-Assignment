@@ -5,188 +5,188 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About - EcoDrive</title>
+  <link rel="icon" type="image/png" href="./images/favicon.png">
   <style>
     /* Responsive Styles */
     @media (max-width: 768px) {
+
       /* Navbar */
       nav {
         flex-direction: column;
         text-align: center;
       }
+
       .nav-links {
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
       }
+
       nav button {
         margin-top: 10px;
       }
 
-         /* Hero Section */
-    section[style*="position: relative"] {
-      height: 300px !important;
+      /* Hero Section */
+      section[style*="position: relative"] {
+        height: 300px !important;
+      }
+
+      section img {
+        height: 100% !important;
+        object-fit: cover;
+      }
+
+      section h1 {
+        font-size: 26px !important;
+        margin-bottom: 5px !important;
+      }
+
+      section p {
+        font-size: 14px !important;
+        padding: 0 15px;
+        max-width: 90% !important;
+        margin: auto;
+      }
+
+      /* About Section */
+      section[style*="max-width: 1100px"] {
+        margin: 40px auto !important;
+        padding: 0 15px !important;
+        font-size: 16px !important;
+        line-height: 1.7 !important;
+      }
+
+      /* Image Section */
+      div img {
+        width: 95% !important;
+        border-radius: 10px !important;
+      }
     }
 
-    section img {
-      height: 100% !important;
-      object-fit: cover;
+    @media (max-width: 480px) {
+      section h1 {
+        font-size: 22px !important;
+      }
+
+      section p {
+        font-size: 13px !important;
+      }
+
+      nav button {
+        padding: 6px 12px !important;
+      }
     }
-
-    section h1 {
-      font-size: 26px !important;
-      margin-bottom: 5px !important;
-    }
-
-    section p {
-      font-size: 14px !important;
-      padding: 0 15px;
-      max-width: 90% !important;
-      margin: auto;
-    }
-
-    /* About Section */
-    section[style*="max-width: 1100px"] {
-      margin: 40px auto !important;
-      padding: 0 15px !important;
-      font-size: 16px !important;
-      line-height: 1.7 !important;
-    }
-
-    /* Image Section */
-    div img {
-      width: 95% !important;
-      border-radius: 10px !important;
-    }
-  }
-
-  @media (max-width: 480px) {
-    section h1 {
-      font-size: 22px !important;
-    }
-
-    section p {
-      font-size: 13px !important;
-    }
-
-    nav button {
-      padding: 6px 12px !important;
-    }
-  }
-
-  
-    
-
   </style>
 </head>
 
 <body style="margin: 0; padding: 0; font-family: 'Poppins', Arial, sans-serif; background-color: #f4f6f7; color: #333;">
 
-    <!-- navbar start -->
-    <nav
-        style="display: flex; align-items: center; justify-content: space-between; padding: 10px; background-color: #23393D; position: sticky; top: 0; z-index: 1000;">
-        <a href="./index.html" class="logo" style=" text-decoration: none;  padding: 10px;"> <span
-                style="color: #fff; font-size: 28px;  font-weight: bolder;">Eco</span><span
-                style="color: #d4ac0d; font-size: 28px;  font-weight: bolder;">Drive</span>
-        </a>
-        <ul class="nav-links" style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
-            <li><a href="./index.html" style="text-decoration: none; color:#fff;">Home</a></li>
-            <li><a href="./about.html" style="text-decoration: none;color:#d4ac0d; font-weight:bold;">About</a></li>
-            <li><a href="./models.html" style="text-decoration: none; color:#fff;">Models</a></li>
-            <li><a href="./contact.html" style="text-decoration: none; color:#fff;">Contact</a></li>
-        </ul>
-        <button
-            style="border-radius: 25px; padding: 8px; background-color: #23393D; border: 2px solid #d4ac0d; color: #fff; font-weight: bold;">
-            Subscribe</button>
+  <!-- navbar start -->
+  <nav
+    style="display: flex; align-items: center; justify-content: space-between; padding: 10px; background-color: #23393D; position: sticky; top: 0; z-index: 1000;">
+    <a href="./index.html" class="logo" style=" text-decoration: none;  padding: 10px;"> <span
+        style="color: #fff; font-size: 28px;  font-weight: bolder;">Eco</span><span
+        style="color: #d4ac0d; font-size: 28px;  font-weight: bolder;">Drive</span>
+    </a>
+    <ul class="nav-links" style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
+      <li><a href="./index.html" style="text-decoration: none; color:#fff;">Home</a></li>
+      <li><a href="./about.html" style="text-decoration: none;color:#d4ac0d; font-weight:bold;">About</a></li>
+      <li><a href="./models.html" style="text-decoration: none; color:#fff;">Models</a></li>
+      <li><a href="./contact.html" style="text-decoration: none; color:#fff;">Contact</a></li>
+    </ul>
+    <button
+      style="border-radius: 25px; padding: 8px; background-color: #23393D; border: 2px solid #d4ac0d; color: #fff; font-weight: bold;">
+      Subscribe</button>
 
-    </nav>
-    <!-- navbar end -->
+  </nav>
+  <!-- navbar end -->
 
-    <!-- Hero Section start-->
-    <section style="position: relative; width: 100%; height: 450px; overflow: hidden;">
-        <img src="./images/banner_img.jpg" alt="Electric car banner"
-            style="width: 100%; height: 100%; object-fit: cover; filter: brightness(70%);">
-        <div
-            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #fff;">
-            <h1 style="font-size: 48px; margin-bottom: 10px;">About <span style="color: #d4ac0d;">EcoDrive</span></h1>
-            <p style="font-size: 20px; max-width: 700px; margin: auto; line-height: 1.5;">Driving the world toward a
-                cleaner,
-                smarter, and electric future.</p>
-        </div>
-    </section>
-    <!-- Hero Section end-->
-
-
-    <!-- About Section Start -->
-    <section style="max-width: 1100px; margin: 60px auto; padding: 0 20px; line-height: 1.9; font-size: 18px;">
-        <p style="text-align: justify;">
-            At <strong>EcoDrive</strong>, we are driven by a single mission — to accelerate the world’s transition
-            toward
-            sustainable and eco-friendly transportation. We believe that the future of mobility lies in innovation,
-            efficiency, and environmental responsibility. Our platform is dedicated to providing in-depth insights,
-            news, and
-            education about electric vehicles (EVs), renewable energy solutions, and cutting-edge automotive
-            technologies.
-            Whether you’re an EV enthusiast, a curious learner, or someone planning to make the switch to electric,
-            <strong>EcoDrive</strong> is your trusted companion on this green journey.
-        </p>
-
-        <p style="text-align: justify;">
-            We envision a world where transportation no longer harms the environment but instead contributes to its
-            healing.
-            Through our platform, we aim to raise awareness about the importance of reducing our carbon footprint and
-            adopting
-            cleaner technologies that make our cities quieter, our air fresher, and our future brighter. Our content
-            covers
-            everything from the latest EV launches and battery innovations to global sustainability initiatives and
-            smart
-            mobility solutions. We highlight how electric mobility is transforming industries, reshaping infrastructure,
-            and
-            opening new opportunities for a cleaner tomorrow.
-        </p>
-
-        <p style="text-align: justify;">
-            Our mission goes beyond information — it’s about inspiration. At <strong>EcoDrive</strong>, we strive to
-            educate,
-            engage, and empower our community to embrace eco-conscious choices that create real impact. Through our
-            expert
-            articles, detailed model reviews, and technology breakdowns, we guide individuals and organizations toward
-            sustainable transformation. We celebrate innovation, creativity, and progress — recognizing every small
-            effort that
-            drives humanity closer to a carbon-neutral world.
-        </p>
-
-        <p style="text-align: justify;">
-            By showcasing the latest advancements in EV design, charging technologies, and renewable energy systems,
-            <strong>EcoDrive</strong> inspires a new generation of responsible drivers and changemakers. We don’t just
-            report
-            on sustainability — we live by it, advocating for a cleaner, smarter, and electrified future. At
-            <strong>EcoDrive</strong>, we don’t just talk about the future — we drive it forward, one electric vehicle
-            at a
-            time.
-        </p>
-    </section>
-    <!-- About Section End -->
-
-    <!-- Image Section start-->
-    <div style="text-align: center; margin-bottom: 60px;">
-        <img src="./images/cardsimages/car15.webp" alt="EV Charging Station"
-            style="width: 90%; max-width: 1000px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+  <!-- Hero Section start-->
+  <section style="position: relative; width: 100%; height: 450px; overflow: hidden;">
+    <img src="./images/banner_img.jpg" alt="Electric car banner"
+      style="width: 100%; height: 100%; object-fit: cover; filter: brightness(70%);">
+    <div
+      style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: #fff;">
+      <h1 style="font-size: 48px; margin-bottom: 10px;">About <span style="color: #d4ac0d;">EcoDrive</span></h1>
+      <p style="font-size: 20px; max-width: 700px; margin: auto; line-height: 1.5;">Driving the world toward a
+        cleaner,
+        smarter, and electric future.</p>
     </div>
-    <!-- Image Section end-->
+  </section>
+  <!-- Hero Section end-->
 
 
-    <!-- Footer start-->
-    <footer style="text-align: center; padding: 10px; background-color:#23393D; color: #fff;">
-        <p>&copy; 2025 <span style="font-weight: 900;">EcoDrive</span> <span
-                style="color: #d4ac0d; font-weight: 900; font-size: 22px;">❘</span>
-            </span>All Rights Reserved <span style="color: #d4ac0d; font-weight: 900; font-size: 22px">❘
+  <!-- About Section Start -->
+  <section style="max-width: 1100px; margin: 60px auto; padding: 0 20px; line-height: 1.9; font-size: 18px;">
+    <p style="text-align: justify;">
+      At <strong>EcoDrive</strong>, we are driven by a single mission — to accelerate the world’s transition
+      toward
+      sustainable and eco-friendly transportation. We believe that the future of mobility lies in innovation,
+      efficiency, and environmental responsibility. Our platform is dedicated to providing in-depth insights,
+      news, and
+      education about electric vehicles (EVs), renewable energy solutions, and cutting-edge automotive
+      technologies.
+      Whether you’re an EV enthusiast, a curious learner, or someone planning to make the switch to electric,
+      <strong>EcoDrive</strong> is your trusted companion on this green journey.
+    </p>
 
-            </span>
-            Designed & Developed By <span style="font-weight: 900;">Hassan</span>
-            <span style="color: #d4ac0d; font-weight: 900;">Javed</span>
-        </p>
-    </footer>
-    <!-- Footer end-->
+    <p style="text-align: justify;">
+      We envision a world where transportation no longer harms the environment but instead contributes to its
+      healing.
+      Through our platform, we aim to raise awareness about the importance of reducing our carbon footprint and
+      adopting
+      cleaner technologies that make our cities quieter, our air fresher, and our future brighter. Our content
+      covers
+      everything from the latest EV launches and battery innovations to global sustainability initiatives and
+      smart
+      mobility solutions. We highlight how electric mobility is transforming industries, reshaping infrastructure,
+      and
+      opening new opportunities for a cleaner tomorrow.
+    </p>
+
+    <p style="text-align: justify;">
+      Our mission goes beyond information — it’s about inspiration. At <strong>EcoDrive</strong>, we strive to
+      educate,
+      engage, and empower our community to embrace eco-conscious choices that create real impact. Through our
+      expert
+      articles, detailed model reviews, and technology breakdowns, we guide individuals and organizations toward
+      sustainable transformation. We celebrate innovation, creativity, and progress — recognizing every small
+      effort that
+      drives humanity closer to a carbon-neutral world.
+    </p>
+
+    <p style="text-align: justify;">
+      By showcasing the latest advancements in EV design, charging technologies, and renewable energy systems,
+      <strong>EcoDrive</strong> inspires a new generation of responsible drivers and changemakers. We don’t just
+      report
+      on sustainability — we live by it, advocating for a cleaner, smarter, and electrified future. At
+      <strong>EcoDrive</strong>, we don’t just talk about the future — we drive it forward, one electric vehicle
+      at a
+      time.
+    </p>
+  </section>
+  <!-- About Section End -->
+
+  <!-- Image Section start-->
+  <div style="text-align: center; margin-bottom: 60px;">
+    <img src="./images/cardsimages/car15.webp" alt="EV Charging Station"
+      style="width: 90%; max-width: 1000px; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+  </div>
+  <!-- Image Section end-->
+
+
+  <!-- Footer start-->
+  <footer style="text-align: center; padding: 10px; background-color:#23393D; color: #fff;">
+    <p>&copy; 2025 <span style="font-weight: 900;">EcoDrive</span> <span
+        style="color: #d4ac0d; font-weight: 900; font-size: 22px;">❘</span>
+      </span>All Rights Reserved <span style="color: #d4ac0d; font-weight: 900; font-size: 22px">❘
+
+      </span>
+      Designed & Developed By <span style="font-weight: 900;">Hassan</span>
+      <span style="color: #d4ac0d; font-weight: 900;">Javed</span>
+    </p>
+  </footer>
+  <!-- Footer end-->
 
 </body>
 
